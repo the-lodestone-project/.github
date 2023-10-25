@@ -55,50 +55,6 @@ Open Delivery Bot shines with its dynamic features, including pathfinding and op
 
 All instalation instructons and documentation can be found [here](https://lodestone-documentation.vercel.app/ "docs")
 
-### Arguments & Options 📄
-
-> [!IMPORTANT]
-> Not changing some of these settings will result in the bot not working. 🛑
-
-> [!WARNING]
-> Do not share your Minecraft info to anyone. 🔒
-
-<details open>
-<summary>How to use the arguments</summary>
-<br>
-
-The command line arguments available are:
-
-* `--email`: The Minecraft Email the bot will log into (use a name and no password for a cracked account). 📧
-* `--password`: The password for your account (if not using cracked). 🔑
-* `--host`: The IP address or hostname of the Minecraft server. 🖥
-* `--port`: The port number the Minecraft server is listening on. Default is 25565. ⚡
-* `--auth`: The authentication method your account requires (mojang/microsoft/cracked). Default is "microsoft". 🔐
-* `--version`: Minecraft version to use when connecting to a server. Default is auto. 🕹
-* `--check_timeout`: How often in milliseconds the bot checks if it is still logged into the server. Default is 600000 (10 minutes). ⏱
-* `--viewer_port`: The local port to run the viewer server on so you can visually see what the bot is doing. Default is 8000. 👀
-* `--quit_on_low_health`: Disconect the bot if the bot is on low health. Default is "True". 👤
-* `--low_health_threashold`: How low the health must be for the bot to quit. Default is "10". 👤
-* `--armor_equip`: If the bot needs to equip all available armor. Default is "True". 👤
-
-</details>
-
-### 🚀 GitHub Codespaces (run the bot in the cloud)
-
-> [!IMPORTANT]
-> If the console gets spammed with random data, try changing the version from false to a version you know is supported by the server.
-
-1. Copy this code to you clipboard and run it once the terminal is available
-
-```bash
-python -m opendeliverybot
-```
-
-2. Open GitHub CodeSpaces below
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/SilkePilon/OpenDeliveryBot)
-
----
 
 ## Roadmap
 
